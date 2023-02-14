@@ -34,7 +34,7 @@ button {
 
 /*  */
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
     padding-right: 15px;
     padding-left: 15px;
@@ -42,10 +42,10 @@ button {
 
 /* header */
 .header {
-    /* padding-top: 50px;
-    padding-bottom: 50px; */
+    position: absolute;
+    left: 0;
+    right: 0;
     color: var(--white-color);
-    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
 }
 
 .header .container {
@@ -135,4 +135,42 @@ button {
 .header-button:hover {
     color: var(--main-text-color);
     border: 1px solid var(--main-text-color);
+}
+
+/* hero */
+.hero {
+    padding-top:    257px;
+    padding-bottom: 187px;
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+    color: var(--white-color);
+    text-align: center;
+}
+
+.hero-title {  
+    font-size: 72px;
+    line-height: 1.19;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 39px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 540px;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 39px;
+}
+
+.hero-button {
+    padding: 17px 53px;
+    margin: 0 auto;
+    color: var(--accent-color);
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    text-transform: uppercase;
 }
