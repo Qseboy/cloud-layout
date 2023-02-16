@@ -282,11 +282,11 @@ img {
 .features-info {
     /* супер рабочий способ */
     position: absolute;
+    bottom: 0;
     left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 50%);
     
-    max-width: 293px;
+    width: 293px;
     padding: 33px 32px 25px 32px;
     border-radius: 8px;
 
@@ -310,4 +310,82 @@ img {
 
 .features-link {
     color: var(--accent-color);
+}
+
+/* technology */
+
+.technology {
+    padding-top: 63px;
+    padding-bottom: 104px;
+    color: var(--main-text-color);
+}
+
+.technology_header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.technology_list {
+    display: flex;
+    gap: 30px;
+}
+
+.technology_item {
+    flex-basis: calc((100% - 90px) / 4);
+    text-align: center;
+    padding-left: 34px;
+    padding-right: 30px;
+    padding-bottom: 24px;
+}
+
+/* .technology_order {
+    position: relative;
+} */
+
+.technology_item .order_text {
+    position: relative;
+    height: 140px;
+
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 1.2;
+    color: rgba(16, 16, 16, 0.08);
+
+    background-repeat: no-repeat;
+}
+
+.technology_item .order_cloud {
+    background-image: url("../image/tec-cloud.svg");
+    background-size: 80px;
+    background-position: center bottom;
+}
+
+.technology_item .order_search {
+    background-image: url("../image/tec-search.svg");
+    background-size: 66px;
+    background-position: center bottom 8px;
+}
+
+.technology_item .order_pdf {
+    background-image: url("../image/tec-pdf.svg");
+    background-size: 70px;
+    background-position: center bottom 8px;
+}
+
+.technology_item .order_csv {
+    background-image: url("../image/tec-csv.svg");
+    background-size: 47px 54px;
+    background-position: center bottom 15px;
+}
+
+.technology_subtitle {
+    margin-bottom: 10px;
+    color: #101010;
+    font-size: 18px;
+    line-height: 1.22;
+}
+
+.technology_text {
+    font-size: 12px;
+    line-height: 1.16;
 }
