@@ -27,7 +27,12 @@
     <header class="header">
       <div class="container">
         <nav class="nav">
-          <a class="logo link" href="#">CloudBudget</a>
+          <a class="logo link" href="#">
+            CloudBudget
+            <svg width="29" height="29">
+              <use href="./image/icons.svg#icon-cloud"></use>
+            </svg>
+          </a>
           <ul class="nav-list list">
             <li class="nav-item"><a class="nav-link link" href="#">overview</a></li>
             <li class="nav-item"><a class="nav-link link" href="#">features</a></li>
@@ -37,7 +42,9 @@
           </ul>
         </nav>
         <div class="header-right">
-          <button class="header-lang" type="button">en</button>
+          <button class="header-lang" type="button">
+            en <svg width="30" height="30"><use href="./image/icons.svg#icon-drop-arr"></use></svg>
+          </button>
           <button class="header-button" type="button">login</button>
         </div>
       </div>
@@ -69,7 +76,11 @@
             <a class="about-link link" href="#">Learn More</a>
           </div>
           <div class="about-right">
-            <div class="play-button"></div>
+            <div class="play-button">
+              <svg width="18" height="18">
+                <use href="./image/icons.svg#icon-play-but"></use>
+              </svg>
+            </div>
             <video
               class="about-video"
               src="http://techslides.com/demos/sample-videos/small.webm"
@@ -133,31 +144,107 @@
       <!-- technology -->
       <section class="technology">
         <div class="container">
-          <h2 class="technology_header section-header">Technology</h2>
-          <ul class="technology_list list">
-            <li class="technology_item">
-              <p class="order_text order_cloud">01</p>
-              <h3 class="technology_subtitle">Cloud Storage</h3>
-              <p class="technology_text">
+          <h2 class="technology-header section-header">Technology</h2>
+          <ul class="technology-list list">
+            <li class="technology-item">
+              <div class="order-decor order-cloud">
+                <p class="order-text">01</p>
+              </div>
+              <h3 class="technology-subtitle">Cloud Storage</h3>
+              <p class="technology-text">
                 Access your account from anywhere in the world on any device
               </p>
             </li>
-            <li class="technology_item">
-              <p class="order_text order_search">02</p>
-              <h3 class="technology_subtitle">Secure</h3>
-              <p class="technology_text">All your information is stored on secure cloud servers</p>
+            <li class="technology-item">
+              <div class="order-decor order-search">
+                <p class="order-text">02</p>
+              </div>
+              <h3 class="technology-subtitle">Secure</h3>
+              <p class="technology-text">All your information is stored on secure cloud servers</p>
             </li>
-            <li class="technology_item">
-              <p class="order_text order_pdf">03</p>
-              <h3 class="technology_subtitle">PDF Download</h3>
-              <p class="technology_text">Download any of your reports in PDF format</p>
+            <li class="technology-item">
+              <div class="order-decor order-pdf">
+                <p class="order-text">03</p>
+              </div>
+              <h3 class="technology-subtitle">PDF Download</h3>
+              <p class="technology-text">Download any of your reports in PDF format</p>
             </li>
-            <li class="technology_item">
-              <p class="order_text order_csv">04</p>
-              <h3 class="technology_subtitle">CSV Download</h3>
-              <p class="technology_text">All your information is stored on secure cloud servers</p>
+            <li class="technology-item">
+              <div class="order-decor order-csv">
+                <p class="order-text">04</p>
+              </div>
+              <h3 class="technology-subtitle">CSV Download</h3>
+              <p class="technology-text">All your information is stored on secure cloud servers</p>
             </li>
           </ul>
+        </div>
+      </section>
+
+      <!-- Present -->
+      <section class="present">
+        <div class="container present-container">
+          <div class="present-info">
+            <h2 class="present-header section-header">Stay focused on saving money</h2>
+            <p class="present-text">
+              It is important to stay focused on saving money in any way you can. We help you
+              monitor your spending habits so you can easily spot and cut any unnecessary expenses.
+              Simply join today to get started!
+            </p>
+            <ul class="present-list list">
+              <li class="present-item">
+                <a class="present-link link" href="#">
+                  <svg width="32" height="32">
+                    <use href="./image/icons.svg#icon-playstore"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item">
+                <a class="present-link link" href="#">
+                  <svg width="32" height="32">
+                    <use href="./image/icons.svg#icon-appStore"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item">
+                <a class="present-link link" href="#">
+                  <svg width="32" height="32">
+                    <use href="./image/icons.svg#icon-windows"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- slider -->
+          <div class="present-slider">
+            <div class="present-slider-1 slide">
+              <img
+                class="present-image"
+                src="./image/present-slider1.jpg"
+                alt="business man"
+                width="445"
+                height="311"
+              />
+            </div>
+            <div class="present-slider-2 slide">
+              <img
+                class="present-image"
+                src="./image/present-slider2.jpg"
+                alt="business man"
+                width="445"
+                height="311"
+              />
+            </div>
+            <div class="present-slider-3 slide">
+              <img
+                class="present-image"
+                src="./image/present-slider3.jpg"
+                alt="business man"
+                width="445"
+                height="311"
+              />
+            </div>
+          </div>
         </div>
       </section>
     </main>
