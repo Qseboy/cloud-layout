@@ -88,6 +88,7 @@ img {
   font-size: 18px;
 
   fill: var(--white-color);
+  transition: 0.2s;
 }
 
 .logo:hover,
@@ -105,6 +106,7 @@ img {
   display: inline-block;
   padding-top: 58px;
   padding-bottom: 58px;
+  transition: 0.2s;
 }
 
 .nav-link:hover,
@@ -143,6 +145,7 @@ img {
   background-color: inherit;
   text-transform: uppercase;
   line-height: 1.21;
+  transition: 0.2s;
 }
 
 .header-button:hover {
